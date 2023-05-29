@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Whack a Digglet</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alkatra&family=Handlee&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+
+  </head>
+  <body>
+    <div class="container">
+
+       <div class="header-container">
+
+        <h1>WHACK A DIGLETT!</h1>
+
+        <button class="startBtn">Start</button>
+
+      <div class="score-container">
+        <h2>Your score: </h2>
+        <h2 data-function="score">0</h2>
+    </div>
+
+        <div class="time-left-container">
+        <h2>Seconds left: </h2>
+         <h2 data-function="time-left">30</h2>
+        </div>
+
+    </div>
+
+
+        <div class="grid-container">
+      <div class="b-grid">
+        <div data-function="square" class="b-square"></div>
+        <div data-function="square" class="b-square"></div>
+        <div data-function="square" class="b-square"></div>
+        <div data-function="square" class="b-square"></div>
+        <div data-function="square" class="b-square"></div>
+        <div data-function="square" class="b-square"></div>
+        <div data-function="square" class="b-square"></div>
+        <div data-function="square" class="b-square"></div>
+              
+      </div>
+
+    </div>
+
+      <div id="myModal" class="modal">
+
+        <div class="modal-content">
+       <span class="close">&times;</span>
+       <p>Game Over</p>
+       <p class="gameOver"></p>
+       <span>Final Score:<span class="finalScore"></span></span>
+      
+
+       
+     </div>
+   
+   </div>
+
+   <footer>
+     This page was code by 
+     <a href="https://www.linkedin.com/in/talitaalvesgomes/?locale=en_US">Talita Alves</a>
+     and is
+     <a href="https://github.com/TalitAlves/TODO-List">open-sorced</a> 👩‍💻
+   </footer>
+
+</div>
+    
+<script src="main.js"></script>
+</body>
+</html>
